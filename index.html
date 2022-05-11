@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
@@ -19,39 +20,50 @@
                 <h1><a href="">Israel S. Moreira</a></h1>
             </div><!-- title -->
 
-            <div class="nav-bar">
+            <div class="desktop-nav-bar">
                 <ul>
                     <li><a href="#section-about-me">Sobre</a></li>
                     <li><a href="#section-history">História</a></li>
                     <li><a href="#section-interests">Interesses</a></li>
                     <li><a href="#section-experience">Experiência</a></li>
                 </ul>
-            </div><!-- nav-bar -->
+            </div><!-- desktop-nav-bar -->
+            <div class="mobile-nav-bar right">
+                <ul>
+                    <li class="mobile-nav"><a href="#section-about-me">Sobre</a></li>
+                    <li class="mobile-nav"><a href="#section-history">História</a></li>
+                    <li class="mobile-nav"><a href="#section-interests">Interesses</a></li>
+                    <li class="mobile-nav"><a href="#section-experience">Experiência</a></li>
+                </ul>
+            </div><!-- mobile-nav-bar -->
         </div><!-- box-header -->
         <div class="clear"></div>
     </header>
 
     <!-- BODY -->
+    <!-- main-box-->
 <div class="main-box">
-    <div id="section-about-me"></div>
+
+    <div id="section-about-me"></div> <!-- scroll -->
+
     <div class="box-about-me">
-        <div class="image-about-me">
+        <div class="image-about-me w50">
             <img src="images/image-2.png" alt="Israel S. Moreira">
         </div><!-- image-about-me -->
-        <div class="text-about-me">
+        <div class="text-about-me w50">
             <h1>Sobre mim</h1>
             <p>Meu nome é Israel Schroeder Moreira, tenho 22 anos, nasci e moro em São Francisco do Sul. Tenho como Hobbie jogar no PC, surfar, jogar futebol, assistir filmes/lives e às vezes pratico meditação. Gosto muito de estar sempre estudando e me atualizando com os assuntos em alta.</p>
         </div><!-- text-about-me -->
         <div class="clear"></div>
     </div><!-- box-about-me -->
 
-    <div class="history-box-content">
-        <div id="section-history"></div>
+    <div class="history-box-content"> 
+        <div id="section-history"></div> <!-- scroll -->
         <div class="history-content">
-            <div class="history-image">
+            <div class="history-image w50">
                 <img src="images/image-1.png" alt="Israel S. Moreira">
             </div><!-- history-image -->
-            <div class="history-text"> 
+            <div class="history-text w50"> 
                 <h1>Minha História</h1>
                 <p>Aos 16 anos eu comecei a desenvolver um interesse muito grande por aviões, queria saber como eles funcionavam e inclusive quero ser piloto até hoje. Terminando o ensino médio, em 2019 fui morar em Curitiba onde comecei um curso preparatório pra estudar Engenharia Aeronáutica no ITA. Mas com o tempo meu pensamento foi mudando e fui fazer Engenharia Mecânica onde participei de um projeto de extensão onde projetávamos e construíamos aeronaves radio controladas com conceitos aeronáuticos. E dentro do projeto tive contato com a programação de rotinas para automatização dos cálculos. Com isso, comecei a gostar cada vez mais e vi que não me via mais como engenheiro mecânico e sim como um desenvolvedor. Após dois anos e meio eu decidi trocar de curso e fazer Engenharia de Software e começar em uma nova área. Foi a melhor decisão que fiz.</p>
             </div>
@@ -60,12 +72,13 @@
     </div><!-- history-box-content -->
 
     <div class="interests-box-content">
-        <div id="section-interests"></div>
+        <div id="section-interests"></div> <!-- scroll -->
+
         <div class="interests-content">
-            <div class="interests-image">
+            <div class="interests-image w50">
                 <img src="images/image-3.jpg" alt="Israel S. Moreira">
             </div><!-- interests-image -->
-            <div class="interests-text"> 
+            <div class="interests-text w50"> 
                 <h1>Meus interesses</h1>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
             </div>
@@ -79,14 +92,14 @@
                 <h1>Minha experiência</h1>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
             </div>
-            <div class="logo-experience">
+            <div class="logo-experience w50">
                 <img src="images/logo-aero.png" alt="Albatroz Aerodesign" class="logo-aero">
                 <img src="images/logo-casadooleo.png" alt="Casa do Óleo" class="logo-casadooleo">
             </div><!-- logo-experience -->
         </div><!-- experience-content -->
         <div class="clear"></div>
     </div><!-- experience-box-content -->
-</div> <!-- main-box -->
+</div> <!-- /main-box -->
     <!-- /BODY -->
 
     <footer>

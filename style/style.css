@@ -20,12 +20,20 @@ img{
 	width: 100%;
 }
 
-.w50{
-	width: 50%;
+.right{
+    float: right;
 }
 
-.center{
+.clear{
+	clear: both;
+}
 
+.left{
+    float: left;
+}
+
+.w50{
+    width: 50%;
 }
 
 /* Fim Boot CSS */
@@ -62,23 +70,19 @@ a{
     transition: 1s;
 }
 
-.nav-bar li{
+.desktop-nav-bar li{
     display: inline-block;
     text-transform: uppercase;
     font-size: 16px;
     padding: 0 15px;
 }
 
-.nav-bar a:hover{
+.desktop-nav-bar a:hover{
    color: grey;
 }
 
-.clear{
-	clear: both;
-}
-
-.left{
-    float: left;
+.mobile-nav-bar{
+    display: none;
 }
 
 /* Fim Header */
@@ -129,7 +133,7 @@ a{
 
 #section-history{
     position: relative;
-    top: -110px;
+    top: -160px;
 }
 
 .history-box-content{
@@ -145,9 +149,12 @@ a{
     color: black;
 }
 
+.history-image{
+    max-width: 500px;
+    max-height: fit-content;
+}
+
 .history-image img{
-    position: relative;
-    max-height: 750px;
     border-radius: 15px 15px;
 }
 
@@ -186,8 +193,11 @@ a{
     justify-content: center;
 }
 
+.interests-image{
+    max-width: 500px;
+}
+
 .interests-image img{
-    max-height: 500px;
     border-radius: 15px 15px;
 }
 
@@ -225,7 +235,7 @@ a{
 
 .experience-text {
     padding-left: 50px;
-    width: 35%;
+    width: 75%;
     font-size: 18px;
 }
 
@@ -266,4 +276,120 @@ footer{
 	font-weight: 400;
     color: white;
 }
+
 /* Fim estilização */
+
+/* Design Responsivo */
+
+@media screen and (max-width: 1000px) {
+
+
+
+    .w50{
+        width: 100%;
+    }
+
+    .box-about-me{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image-about-me{
+        margin-top: 50px;
+        max-width: fit-content;
+    }
+
+    .text-about-me{
+        padding-right: 50px;
+    }
+
+    .history-content{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .history-image{
+        margin-top: 50px;
+        max-width: 450px;
+    }
+
+    .history-text{
+        padding-left: 50px;
+    }
+
+    .interests-content{
+        display: flex;
+        flex-direction: column-reverse;
+        color: black;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .interests-text{
+        padding-right: 50px;
+    }
+
+    .interests-image{
+        margin-top: 50px;
+        max-width: 400px;
+    }
+
+    .experience-text{
+        padding-right: 50px;
+    }
+
+    .logo-experience{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    
+    .desktop-nav-bar{
+        display: none;
+    }
+
+    .mobile-nav-bar{
+        display: block;
+    }
+
+    .mobile-nav{
+        padding: 0px 10px;
+        display: inline;
+        list-style: none;
+    }
+
+    .mobile-nav>a{
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    .mobile-nav>a:hover{
+        color: grey;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    
+    .desktop-nav-bar{
+        display: none;
+    }
+
+    .mobile-nav-bar{
+        display: block;
+    }
+
+    .mobile-nav{
+        display: block;
+        list-style: none; 
+    }
+
+    .mobile-nav>a:hover{
+        color: grey;
+    }
+}
