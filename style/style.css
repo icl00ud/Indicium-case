@@ -89,7 +89,7 @@ a{
 
 .main-box{
     height: auto;
-    padding-top: 273px;
+    padding-top: 200px;
 }
 
 /* ------ about-me ------ */
@@ -203,7 +203,7 @@ a{
 
 .interests-text {
     position: relative;
-    width: 35%;
+    width: 30%;
     padding-left: 50px;
     font-size: 18px;
 }
@@ -271,10 +271,25 @@ footer{
 	bottom: 0;
 	background-color: black;
 	text-align: center;
-	padding: 30px;
-	font-size: 17px;
-	font-weight: 400;
+	padding: 20px;
+	font-size: 20px;
     color: white;
+}
+
+.icons-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+footer .indicium-logo{
+    width: 35px;
+    padding-top: 20px;
 }
 
 /* Fim estilização */
