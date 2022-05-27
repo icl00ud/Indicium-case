@@ -1,38 +1,39 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: 'Open Sans', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Boot CSS */
 
-html, body{
-	height: 100%;
+html,
+body {
+    height: 100%;
     scroll-behavior: smooth;
 }
 
-body{
-	overflow-x: hidden;
+body {
+    overflow-x: hidden;
 }
 
-img{
-	width: 100%;
+img {
+    width: 100%;
 }
 
-.right{
+.right {
     float: right;
 }
 
-.clear{
-	clear: both;
+.clear {
+    clear: both;
 }
 
-.left{
+.left {
     float: left;
 }
 
-.w50{
+.w50 {
     width: 50%;
 }
 
@@ -42,7 +43,7 @@ img{
 
 /* Header */
 
-header{
+header {
     background-color: black;
     color: white;
     padding: 15px 0;
@@ -51,18 +52,18 @@ header{
     width: 100%;
 }
 
-.box-header{
+.box-header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center; 
+    align-items: center;
 }
 
-.title h1{
+.title h1 {
     font-style: italic;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -70,59 +71,59 @@ a{
     transition: 1s;
 }
 
-.desktop-nav-bar li{
+.desktop-nav-bar li {
     display: inline-block;
     text-transform: uppercase;
     font-size: 16px;
     padding: 0 15px;
 }
 
-.desktop-nav-bar a:hover{
-   color: grey;
+.desktop-nav-bar a:hover {
+    color: grey;
 }
 
-.mobile-nav-bar{
+.mobile-nav-bar {
     display: none;
 }
 
 /* Fim Header */
 
-.main-box{
+.main-box {
     height: auto;
     padding-top: 200px;
 }
 
 /* ------ about-me ------ */
 
-#section-about-me{
+#section-about-me {
     position: relative;
     top: -300px;
 }
 
-.box-about-me{
+.box-about-me {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
-.image-about-me{
+.image-about-me {
     width: 600px;
 }
 
-.image-about-me img{
+.image-about-me img {
     max-height: 500px;
     border-radius: 15px 15px;
 }
 
-.text-about-me{
+.text-about-me {
     width: 350px;
     font-size: 18px;
     color: black;
     padding-left: 50px;
 }
 
-.text-about-me h1{
+.text-about-me h1 {
     position: relative;
     top: -50px;
 }
@@ -131,16 +132,16 @@ a{
 
 /* ------ my-history page ------- */
 
-#section-history{
+#section-history {
     position: relative;
     top: -160px;
 }
 
-.history-box-content{
+.history-box-content {
     margin-top: 200px;
 }
 
-.history-content{
+.history-content {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -149,12 +150,12 @@ a{
     color: black;
 }
 
-.history-image{
+.history-image {
     max-width: 500px;
     max-height: fit-content;
 }
 
-.history-image img{
+.history-image img {
     border-radius: 15px 15px;
 }
 
@@ -166,7 +167,7 @@ a{
     text-align: left;
 }
 
-.history-text h1{
+.history-text h1 {
     position: relative;
     top: -50px;
 }
@@ -175,17 +176,17 @@ a{
 
 /* ------ my-interests page ------- */
 
-#section-interests{
+#section-interests {
     position: relative;
     top: -220px;
 }
 
-.interests-box-content{
+.interests-box-content {
     background-color: white;
     margin-top: 200px;
 }
 
-.interests-content{
+.interests-content {
     display: flex;
     flex-direction: row;
     color: black;
@@ -193,11 +194,11 @@ a{
     justify-content: center;
 }
 
-.interests-image{
+.interests-image {
     max-width: 500px;
 }
 
-.interests-image img{
+.interests-image img {
     border-radius: 15px 15px;
 }
 
@@ -208,7 +209,7 @@ a{
     font-size: 18px;
 }
 
-.interests-text h1{
+.interests-text h1 {
     position: relative;
     top: -50px;
 }
@@ -217,11 +218,11 @@ a{
 
 /* ------  my-experience page ------- */
 
-.experience-box-content{
+.experience-box-content {
     margin-top: 250px;
 }
 
-.experience-content{
+.experience-content {
     display: flex;
     flex-direction: column;
     color: black;
@@ -229,7 +230,7 @@ a{
     justify-content: center;
 }
 
-.experience-image img{
+.experience-image img {
     max-height: 500px;
 }
 
@@ -239,12 +240,12 @@ a{
     font-size: 18px;
 }
 
-.experience-text h1{
+.experience-text h1 {
     position: relative;
     top: -50px;
 }
 
-.logo-experience{
+.logo-experience {
     display: flex;
     flex-direction: row;
 
@@ -252,13 +253,13 @@ a{
     margin-bottom: 100px;
 }
 
-.logo-experience img.logo-aero{
+.logo-experience img.logo-aero {
     max-width: 376px;
     margin: 0 25px;
     max-height: 120px;
 }
 
-.logo-experience img.logo-casadooleo{
+.logo-experience img.logo-casadooleo {
     max-width: 400px;
     max-height: 120px;
     margin: 0 25px;
@@ -266,28 +267,28 @@ a{
 
 /* ------ Fim my-experience page ------- */
 
-footer{
-	width: 100%;
-	bottom: 0;
-	background-color: black;
-	text-align: center;
-	padding: 20px;
-	font-size: 20px;
+footer {
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
     color: white;
 }
 
-.icons-box{
+.icons-box {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-footer li{
+footer li {
     display: inline-block;
     padding: 0 20px;
 }
 
-footer .indicium-logo{
+footer .indicium-logo {
     width: 35px;
     padding-top: 20px;
 }
@@ -300,43 +301,43 @@ footer .indicium-logo{
 
 
 
-    .w50{
+    .w50 {
         width: 100%;
     }
 
-    .box-about-me{
+    .box-about-me {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
     }
 
-    .image-about-me{
+    .image-about-me {
         margin-top: 50px;
         max-width: fit-content;
     }
 
-    .text-about-me{
+    .text-about-me {
         padding-right: 50px;
     }
 
-    .history-content{
+    .history-content {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
     }
 
-    .history-image{
+    .history-image {
         margin-top: 50px;
         max-width: 450px;
     }
 
-    .history-text{
+    .history-text {
         padding-left: 50px;
     }
 
-    .interests-content{
+    .interests-content {
         display: flex;
         flex-direction: column-reverse;
         color: black;
@@ -344,67 +345,67 @@ footer .indicium-logo{
         justify-content: center;
     }
 
-    .interests-text{
+    .interests-text {
         padding-right: 50px;
     }
 
-    .interests-image{
+    .interests-image {
         margin-top: 50px;
         max-width: 400px;
     }
 
-    .experience-text{
+    .experience-text {
         padding-right: 50px;
     }
 
-    .logo-experience{
+    .logo-experience {
         flex-direction: column;
         align-items: center;
     }
 }
 
 @media screen and (max-width: 800px) {
-    
-    .desktop-nav-bar{
+
+    .desktop-nav-bar {
         display: none;
     }
 
-    .mobile-nav-bar{
+    .mobile-nav-bar {
         display: block;
     }
 
-    .mobile-nav{
+    .mobile-nav {
         padding: 0px 10px;
         display: inline;
         list-style: none;
     }
 
-    .mobile-nav>a{
+    .mobile-nav>a {
         text-transform: uppercase;
         font-size: 14px;
     }
 
-    .mobile-nav>a:hover{
+    .mobile-nav>a:hover {
         color: grey;
     }
 }
 
 @media screen and (max-width: 630px) {
-    
-    .desktop-nav-bar{
+
+    .desktop-nav-bar {
         display: none;
     }
 
-    .mobile-nav-bar{
+    .mobile-nav-bar {
         display: block;
     }
 
-    .mobile-nav{
+    .mobile-nav {
         display: block;
-        list-style: none; 
+        list-style: none;
     }
 
-    .mobile-nav>a:hover{
+    .mobile-nav>a:hover {
         color: grey;
     }
 }
